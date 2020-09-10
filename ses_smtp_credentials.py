@@ -12,7 +12,7 @@ import struct
 
 def main():
     #access_key_id, secret_access_key = get_access_creds()
-    username, password = get_smtp_creds('97xXS6aLf9WfRvHr', 'CM9CC6bmxZqQjcCgMj2qT75At3')
+    username, password = get_smtp_creds('97xXS6aLf9WfRvHr', 'CM9CC6bmxZqQjcCgMj2qT75At111113')
 
     print('SMTP Username: %s' % username)
     print('SMTP Password: %s' % password)
