@@ -1,6 +1,6 @@
--   repo: https://github.com/thoughtworks/talisman
-    rev: ''  # Update me!
+-   repo: git@github.com:Yelp/detect-secrets
+    rev: v0.14.3
     hooks:
-    # either `commit` or `push` support
-    -   id: talisman-commit
-    # -   id: talisman-push
+    -   id: detect-secrets
+        args: ['--baseline', '.secrets.baseline']
+        exclude: .*/tests/.*
